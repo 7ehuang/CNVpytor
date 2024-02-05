@@ -2505,7 +2505,7 @@ class Root:
 
             _logger.info("Checking bimodal hypothesis...")
             bim = fit_bimodal(bins[:-1], hist)
-            if False and bim is not None:
+            if bim is not None:
                 # and bim[0][0] > 0 and bim[0][1] > 0 and bim[0][3] > 0 and bim[0][4] > 0:
                 # and np.sum(np.sqrt(np.diag(bim[1])) / np.array(bim[0])) < 10:
                 _logger.info("Fit successful:")
@@ -3042,7 +3042,7 @@ class Root:
 
             _logger.info("Checking bimodal hypothesis...")
             bim = fit_bimodal(bins[:-1], hist)
-            if False and bim is not None:
+            if bim is not None:
                 # and bim[0][0] > 0 and bim[0][1] > 0 and bim[0][3] > 0 and bim[0][4] > 0:
                 # and np.sum(np.sqrt(np.diag(bim[1])) / np.array(bim[0])) < 10:
                 _logger.info("Fit successful:")
@@ -3603,7 +3603,7 @@ class Root:
 
             _logger.info("Checking bimodal hypothesis...")
             bim = fit_bimodal(bins[:-1], hist)
-            if False and bim is not None:
+            if bim is not None:
                 # and bim[0][0] > 0 and bim[0][1] > 0 and bim[0][3] > 0 and bim[0][4] > 0:
                 # and np.sum(np.sqrt(np.diag(bim[1])) / np.array(bim[0])) < 10:
                 _logger.info("Fit successful:")
@@ -4122,7 +4122,7 @@ class Root:
 
             _logger.info("Checking bimodal hypothesis...")
             bim = fit_bimodal(bins[:-1], hist)
-            if False and bim is not None:
+            if bim is not None:
                 # and bim[0][0] > 0 and bim[0][1] > 0 and bim[0][3] > 0 and bim[0][4] > 0:
                 # and np.sum(np.sqrt(np.diag(bim[1])) / np.array(bim[0])) < 10:
                 _logger.info("Fit successful:")
